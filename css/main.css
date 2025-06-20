@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Righteous&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}   
+
+body{
+    font-size: 100%;
+    background: #0a192f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
+}
+.cabecalho_logo{
+    border-radius: 250px;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho_menu_item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#fff2e7;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+    padding: 8px 16px;
+    border-radius: 6px;
+     display: inline-block;  
+
+}
+ .cabecalho_menu_item:hover {
+    background: #0078d7;
+    color: #fff;
+    transform: scale(1.08);
+ }
+ 
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.48px  solid #fff2e7;
+}
+.conteudo_principal{
+    display: flex;
+    flex-direction: co;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 48px;
+    
+}
+.conteudo_principal_escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #fff2e7;
+}
+.conteudo_principal_escrito_titulo{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    
+}
+.conteudo_principal_logo{
+    border-radius: 50px;
+}
+.conteudo_secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    gap: 32px;
+    color: #fff2e7;
+    justify-content: flex-end;
+    margin-bottom: 96px;
+    margin-top: 48px;
+}
+.conteudo_secundario_titulo{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    
+}
+.footer{
+    display: flex;               
+    justify-content: center;     
+    align-items: center;                      
+    bottom: 0;                   
+    width: 100%;                 
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+    .pagina{
+        flex: 1;
+    padding-bottom: 128px;
+    }
+
+.gustavo {
+    display: flex;
+        align-items: center;
+    background-color: #03142e;
+    padding: 48px;
+    color: white;
+}
+
+.gustavo-foto {
+    border-radius: 150px;
+    margin-right: 32px;
+}
+
+.gustavo-escrito {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', sans-serif;
+    max-width: 600px;
+    align-items: center;       
+    text-align: center;       
+}
+
+.gustavo-escrito-nome {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.gustavo-escrito-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.raica {
+    display: flex;
+        align-items: center;
+    padding: 48px;
+    color: white;
+}
+
+.raica-foto {
+    border-radius: 150px;
+    margin-right: 32px;
+}
+
+.raica-escrito {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', sans-serif;
+    max-width: 600px;
+    align-items: center;       
+    text-align: center;       
+}
+
+.raica-escrito-nome {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.raica-escrito-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.ana {
+    display: flex;
+    align-items: center;
+    padding: 48px;
+    color: white;
+    background-color: #03142e;
+}
+
+.ana-foto {
+    border-radius: 150px;
+    margin-right: 32px;
+}
+
+.ana-escrito {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', sans-serif;
+    max-width: 600px;
+    align-items: center;       
+    text-align: center;       
+}
+
+.ana-escrito-nome {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.ana-escrito-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.matheusp {
+    display: flex;
+        align-items: center;
+    padding: 48px;
+    color: white;
+}
+
+.matheusp-foto {
+    border-radius: 150px;
+    margin-right: 32px;
+}
+
+.matheusp-escrito {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', sans-serif;
+    max-width: 600px;
+    align-items: center;       
+    text-align: center;       
+}
+
+.matheusp-escrito-nome {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.matheusp-escrito-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.matheusc {
+    display: flex;
+        align-items: center;
+    padding: 48px;
+    color: white;
+    background-color: #03142e;
+}
+
+.matheusc-foto {
+    border-radius: 150px;
+    margin-right: 32px;
+}
+
+.matheusc-escrito {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', sans-serif;
+    max-width: 600px;
+    align-items: center;       
+    text-align: center;       
+}
+
+.matheusc-escrito-nome {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.matheusc-escrito-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.kauanny {
+    display: flex;
+        align-items: center;
+    padding: 48px;
+    color: white;
+}
+
+.kauanny-foto {
+    border-radius: 150px;
+    margin-right: 32px;
+}
+
+.kauanny-escrito {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', sans-serif;
+    max-width: 600px;
+    align-items: center;       
+    text-align: center;       
+}
+
+.kauanny-escrito-nome {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.kauanny-escrito-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.mariany {
+    display: flex;
+        align-items: center;
+    padding: 48px;
+    color: white;
+    background-color: #03142e;
+}
+
+.mariany-foto {
+    border-radius: 150px;
+    margin-right: 32px;
+}
+
+.mariany-escrito {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', sans-serif;
+    max-width: 600px;
+    align-items: center;       
+    text-align: center;       
+}
+
+.mariany-escrito-nome {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.mariany-escrito-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+}
